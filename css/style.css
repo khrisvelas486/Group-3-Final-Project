@@ -1,15 +1,39 @@
 .dropdown-menu {
-    display: block;
+    width:-webkit-fill-available;
 }
-.justify-content-center {
-    border-style: outset;   
+.dropdown-item {
+    font-size: large;
 }
-
+.nav-tabs{
+    border-bottom: 10px solid #52cac2;
+}
+.nav-tabs .nav-link.active{
+    background-color: #52cac2;
+    color: #ffffff
+}
+body {
+    font-size: 22px;
+}
 h1 {
     margin: 2%;
-    margin-left: 65%;
+    font-size: 62px;
+    font-weight: 600;
+    font-family:'Open Sans', sans-serif;
+    left: 50%;
+    bottom: 58%;
+    position: absolute;
 }
 .mission-Statement {
     margin-left: 45%;
     margin-bottom: 4%;
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+.header-Logo{
+    width: 181px;
+    height: 180px;
+    margin: 2%;
+}
+.top-Header{
+    position: relative;
 }
