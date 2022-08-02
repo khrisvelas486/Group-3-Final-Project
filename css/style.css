@@ -37,3 +37,56 @@ h1 {
 .top-Header{
     position: relative;
 }
+
+#backgroundImage{
+    text-align:center;
+width:100%;
+display:block;
+margin:auto;
+}
+
+#ip2 {
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px; 
+    width: 450px;
+    height: 15px; 
+    
+}
+
+#ip3{
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px; 
+    width: 450px;
+    height: 15px;  
+}
+
+#ip4 {
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px; 
+    width: 450px;
+    height: 200px;    
+}
+
+.text1{
+    margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+#information{
+    align-content: left;
+    
+}
+
+body {
+    background-color: #D9D9D9;
+  }
+
+.topImage{
+    
+}
+
