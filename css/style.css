@@ -7,9 +7,14 @@
 .nav-tabs{
     border-bottom: 10px solid #52cac2;
 }
+
 .nav-tabs .nav-link.active{
     background-color: #52cac2;
     color: #ffffff
+}
+.nav-tabs .nav-link:hover {
+    background-color: #52Cac2;
+    color: #FFFFFF;
 }
 body {
     font-size: 22px;
@@ -37,6 +42,7 @@ h1 {
 .top-Header{
     position: relative;
 }
+<<<<<<< Updated upstream
 
 #backgroundImage{
     text-align:center;
@@ -63,14 +69,17 @@ body {
     background-color: #D9D9D9;
 }
 
-.button1 .button2 .button3 .button4{
-background-color: #FFBC4B;
-min-width: 250px
-
+.topImage{
+    
 }
 
 .btn {
     width: 500px;
+}
+
+
+.brand-Text {
+    font-size: 22px;
 }
 
 .btn {
