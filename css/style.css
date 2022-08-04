@@ -45,30 +45,7 @@ display:block;
 margin:auto;
 }
 
-#ip2 {
-    border-radius: 10px;
-    border: 2px solid rgb(0, 0, 0);
-    padding: 20px; 
-    width: 450px;
-    height: 15px; 
-    
-}
 
-#ip3{
-    border-radius: 10px;
-    border: 2px solid rgb(0, 0, 0);
-    padding: 20px; 
-    width: 450px;
-    height: 15px;  
-}
-
-#ip4 {
-    border-radius: 10px;
-    border: 2px solid rgb(0, 0, 0);
-    padding: 20px; 
-    width: 450px;
-    height: 200px;    
-}
 
 .text1{
     margin: auto;
@@ -84,9 +61,28 @@ margin:auto;
 
 body {
     background-color: #D9D9D9;
-  }
-
-.topImage{
-    
 }
 
+.button1 .button2 .button3 .button4{
+background-color: #FFBC4B;
+min-width: 250px
+
+}
+
+.btn {
+    width: 500px;
+}
+
+.btn {
+    background-color: #FFBC4B;
+}
+
+@media only screen and (max-width: 680px){
+    
+
+}
+
+img, svg {
+    vertical-align: middle;
+    max-width: 100%;
+}
