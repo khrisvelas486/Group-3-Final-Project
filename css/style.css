@@ -16,9 +16,18 @@
     background-color: #52Cac2;
     color: #FFFFFF;
 }
+
+/*-------------Mobile Navbar--------*/
+#mobileNav {
+    display:none;
+}
+/*-----------------------------*/
+
 body {
     font-size: 22px;
 }
+
+/*----Header Section For resizing---*/
 h1 {
     margin: 2%;
     font-size: 62px;
@@ -27,42 +36,48 @@ h1 {
     left: 50%;
     bottom: 58%;
     position: absolute;
+    /* For Mobile Resize*/
+    display:;
 }
 .mission-Statement {
     margin-left: 45%;
     margin-bottom: 4%;
     font-size: 26px;
     font-family: 'Lato', sans-serif;
+    /* For Mobile Resize*/
+    display:;
+    
 }
 .header-Logo{
     width: 181px;
     height: 180px;
     margin: 2%;
+    /* For Mobile Resize*/
+    display:;
 }
+/*--------------------------*/
+
+
 .top-Header{
     position: relative;
 }
-<<<<<<< Updated upstream
-
-#backgroundImage{
-    text-align:center;
-width:100%;
-display:block;
-margin:auto;
+#form-Box {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
 }
 
 
 
-.text1{
-    margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+
+.brand-Text{
+    font-size: 22px;
 }
 
-#information{
-    align-content: left;
-    
+.footer-Logo {
+    width: 165px;
+    height: 165px;
+    margin-bottom: 5%;
 }
 
 body {
@@ -85,13 +100,4 @@ body {
 .btn {
     background-color: #FFBC4B;
 }
-
-@media only screen and (max-width: 680px){
-    
-
-}
-
-img, svg {
-    vertical-align: middle;
-    max-width: 100%;
-}
+         
