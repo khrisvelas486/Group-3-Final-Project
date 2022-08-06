@@ -7,7 +7,9 @@
 .nav-tabs{
     border-bottom: 10px solid #52cac2;
 }
-
+.nav-fill .nav-item .nav-link {
+    color: black;
+}
 .nav-tabs .nav-link.active{
     background-color: #52cac2;
     color: #ffffff
@@ -64,11 +66,24 @@ h1 {
     position: relative;
 }
 
-#form-Box {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding: 2%;
+#formContainer {
+    width: 75%;
 }
+
+#form-Box {
+    padding: 5%;
+}
+.form-label {
+    font-size: medium;
+}
+.modal-body {
+    font-size: medium;
+}
+#modalButton {
+    width:100px;
+}
+
+
 
 .brand-Text{
     font-size: 22px;
@@ -87,33 +102,13 @@ margin:auto;
     margin-bottom: 5%;
 }
 
-
-.text1{
-    margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+html {
+    background-color: #FFFFFF;
 }
 
-#information{
-    align-content: left;
-    
-}
-
-body {
-    background-color: #D9D9D9;
-}
-
-
-.button1 .button2 .button3 .button4{
-background-color: #FFBC4B;
-min-width: 250px
-
-}
 
 .btn {
-    width: 300px;
-    margin-bottom: 20px;
+    width: 294px;
 }
 
 .brand-Text {

@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/style.css" rel=" stylesheet" type="text/css">
     </head>
-    <body>
+  <body>
     <header class="top-Header">
         <img class="header-Logo" src="images/hoo_logo.png" alt="HOO Logo">
         <h1> Hands On Orlando</h1>
@@ -123,49 +123,51 @@
 
           </section>
 
-<!--Text field-->
-<section id="form-Box" class="bg-light" >
-  <div class="container">
-  <h3 class="text-center">Questions about Hands On Orlando?</h3>
-      <div id="" class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">Email*:</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="*e.g., email@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="formGroupExampleInput2" class="form-label">Subject*:</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="*e.g., volunteer opportunities">
-      </div>
-      <div class="mb-3">
-        <label for="formGroupExampleInput2" class="form-label">Your Message:</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Enter text here"></textarea>
-      </div>
-</div>
-</section>
+  <section id="form-Box" class="bg-light" >
+    <div id="formContainer" class="container">
+
+    <h3 class="text-center">Questions about Hands On Orlando?</h3>
+
+        <div id="" class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Email*:</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="*e.g., email@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">Subject*:</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="*e.g., volunteer opportunities">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">Your Message:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Enter text here"></textarea>
+        </div>
+        
+        <!-- Button trigger modal -->
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button type="button" class="btn btn-primary me-md-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Submit
+        </button>
+      </div>    
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Message Sent!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Thank you! Our office has received your message and will respond within 24 hours. We appreciate your patience! 
+              </div>
+              <div class="modal-footer">
+                <button id="modalButton" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
-
-
-
-
-
-
-
-
-
-Message Khris V.
-
-
-
-
-
-
-
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+    </div>
+  </section>
          
         <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
