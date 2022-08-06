@@ -52,11 +52,7 @@ h1 {
     height: 180px;
     margin: 2%;
 }
-#form-Box {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding: 2%;
-}
+
 
 .top-Header{
     position: relative;
@@ -67,7 +63,7 @@ h1 {
 }
 
 #formContainer {
-    width: 75%;
+    width: 60%;
 }
 
 #form-Box {
@@ -130,10 +126,6 @@ img, svg {
     max-width: 100%;
 }
 
-#form-Box {
-    padding: 10%;
-
-}
 
 .form-Label {
     font-size: medium ;
