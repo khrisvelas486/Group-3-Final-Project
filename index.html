@@ -22,7 +22,7 @@
         <h1> Hands On Orlando</h1>
             <p class="mission-Statement">Our mission: Help people, nonprofits and businesses save time, money, and maximize their positive impacts through hands on volunteer action to change lives across Central Florida.
             </p>
-            <ul class="nav justify-content-center nav-tabs nav-fill">
+            <ul id="desktopNav"class="nav justify-content-center nav-tabs nav-fill">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Home
@@ -58,55 +58,60 @@
               </ul>
                         <!--  Mobile Navbar after Resize  -->    
 
-      <nav class="navbar navbar-expand-md bg-light navbar-light" id="mobileNav">
-            <!-- Brand -->
-  
-         <a class="navbar-brand" href="#"></a>
-
-            <!-- Toggler/collapsible Button -->
-  
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-           </button>
-            <!-- Nav Bar & Links -->
-  
-         <div class="navbar-collapse collapse" id="collapsibleNavbar">
-          <ul class="nav justify-content-center nav-tabs nav-fill">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Home
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">About HOO</a></li>
-                </ul>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Donate</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Volunteer
-                </a>
-                <ul class="dropdown-menu" data-bs-toggle="dropdown">
-                  <li><a class="dropdown-item" href="#">Volunteer Calendar</a></li>
-                  <li><a class="dropdown-item" href="#">Court Ordered Volunteers</a></li>
-                  <li><a class="dropdown-item" href="#">Scholars on Service</a></li>
-                  <li><a class="dropdown-item" href="#">Task Leader @ HOO</a></li>
-                  <li><a class="dropdown-item" href="#">Corporate Volunteering</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Local Businesses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Hands On Park</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
+                        <nav id="mobileNav"class="navbar bg-light fixed-top">
+                          <div class="container-fluid">
+                            <i id="iconHome" class="fa fa-home"></i><img class="mobile-Logo" src="images/hoo_logo.png" width="85px;" height="85px;" alt="HOO Logo"> 
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                              <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                              </div>
+                              <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Home
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">About HOO</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Donate</a>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Volunteer
+                                    </a>
+                                    <ul class="dropdown-menu" data-bs-toggle="dropdown">
+                                      <li><a class="dropdown-item" href="#">Volunteer Calendar</a></li>
+                                      <li><a class="dropdown-item" href="#">Court Ordered Volunteers</a></li>
+                                      <li><a class="dropdown-item" href="#">Scholars on Service</a></li>
+                                      <li><a class="dropdown-item" href="#">Task Leader @ HOO</a></li>
+                                      <li><a class="dropdown-item" href="#">Corporate Volunteering</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Local Businesses</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Hands On Park</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                  </li>
+                                </ul>
+                                <form class="d-flex" role="search">
+                                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                  <button  id="searchButton"  class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </nav>
         </header>
         <br>
         <br>
@@ -124,12 +129,12 @@
             </div>
           </div>
 </div>
-      
+ </section>      
 
         <br>
 
       <!--Images with text-->
-      <section class="information">
+      <section id="midSection" class="information">
 
         <div class="container text-left">
           <div class="row ">
@@ -170,9 +175,24 @@
             <div class="col-lg-6 col-sm-12"><button type="button" class="btn btn-warning button4">Send</button></div>
           </div>
         </div>
+        
+
+        
+  </section>
+        <!--Mobile Middle Buttons-->
+  <section id="middleStuff">
+    <img src="../Group-3-Final-Project/images/Hero Image.png" alt="mobile-hero-img">
+    <p class="pageText" style="font-size: smaller;">Welcome to Hands On Orlando and thank you for visiting our site. We help individuals and families find Hands On volunteer opportunities in Orlando and across Central Florida. This includes helping people find court ordered community service hours.<br><br>
+        <div id="mobile-section" class="d-grid gap-2">
+          <button id="mobileMiddle" class="btn btn-primary btn-lg" type="button">Volunteer Opportunities<i id="arrow-Right"class="fa fa-chevron-right"></i>
+          </button>
+          <button id="mobileMiddle" class="btn btn-primary btn-lg" type="button">Hands On Park<i id="arrow-Right"class="fa fa-chevron-right"></i></button>
+          <button id="mobileMiddle" class="btn btn-primary btn-lg" type="button">Local Businesses<i id="arrow-Right"class="fa fa-chevron-right"></i></button>
+          <button id="mobileMiddle" class="btn btn-primary btn-lg" type="button">Corporate Volunteering and Team Building<i id="arrow-Right"class="fa fa-chevron-right"></i></button>
+        </div>
+  </section>
 
 
-          </section>
 
   <section id="form-Box" class="bg-light" >
     <div id="formContainer" class="container">
@@ -223,7 +243,7 @@
         <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
   <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-evenly p-4 border-bottom "style="background-color: rgba(0, 0, 0, 0.05);">
+  <section id="" class="sm-Links d-flex justify-content-center justify-content-lg-evenly p-4 border-bottom "style="background-color: rgba(0, 0, 0, 0.05);">
     <!-- Left -->
     <div class="me-5 d-none d-lg-block">
       <span>Get connected with us on social networks:</span>
@@ -262,7 +282,7 @@
   <!-- Section: Social media -->
 
   <!-- Section: Links  -->
-  <section class="">
+  <section class="section-Links">
     <div class="container text-center text-md-start mt-5">
       <!-- Grid row -->
       <div class="row mt-3 ">
@@ -325,9 +345,99 @@
   </section>
   <!-- Section: Links  -->
 
+  <!--Mobile Accordion-->
+  
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Social Media
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <a href="https://www.facebook.com/HandsOnOrlando/" class="me-4">
+          <span class="fa-stack">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-facebook-f fa-stack-1x"></i>
+          </span> Facebook
+        </a> <br><br>
+        <a href="https://twitter.com/handsonorlando?lang=en" class="me-4">
+          <span class="fa-stack">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x"></i>
+        </span> Twitter
+        </a><br><br>
+        <a href="https://www.instagram.com/handsonorlando/?hl=en" class="me-4">
+          <span class="fa-stack">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-instagram fa-stack-1x"></i>
+          </span> Instagram
+        </a><br><br>
+        <a href="https://www.youtube.com/user/handsontelevision" class="me-4">
+          <span class="fa-stack">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-youtube-play fa-stack-1x"></i>
+          </span> Youtube
+        </a>
+      </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+       Page Links
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="acccordion-body col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-left">
+        <!-- Links -->
+          <p>
+            <a href="#!" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset" >Donate</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Volunteer</a>
+          </p>
+        <p>
+          <a href="#!" class="text-reset">Local Businesses</a>
+        </p>
+        <p>
+          <a href="#!" class="text-reset">Hands On Orlando</a>
+        </p>
+        <p>
+          <a href="#!" class="text-reset">Blog</a>
+        </p>
+      </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+      Contact Us
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordian-body col-md-4 col-lg-3 col-xl-5 mx-auto mb-md-0 mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase fw-bold mb-3">Contact Us</h6>
+        <p><i class="fa fa-home me-2"></i> 1850 Lee Road, #220 Winter Park, FL 32789</p>
+        <p>
+          <i class="fa fa-envelope me-2"></i>
+          volunteer@HandsOnOrlando.com
+        </p>
+        <p><i class="fa fa-phone me-2"></i> +1 407-740-8652</p>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+  </div>
+</div>
+
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
+    © 2022 Copyright:
     <a class="text-reset fw-bold" href="https://www.handsonorlando.com/">HandsOnOrlando.com</a>
   </div>
   <!-- Copyright -->
