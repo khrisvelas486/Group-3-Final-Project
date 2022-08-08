@@ -23,6 +23,22 @@
 #mobileNav {
     display:none;
 }
+.offcanvas-body {
+    background-color: #a1e0dc;
+    font-weight: 600; 
+}
+.offcanvas-header {
+    background-color: #3699ec77;
+}
+#searchButton {
+    width:80px;
+    margin-bottom: 0px
+}
+#iconHome {
+    font-size: 50px;
+    color: #00000099;
+}
+
 
 /*-----------------------------*/
 body {
@@ -79,7 +95,27 @@ h1 {
     width:100px;
 }
 
+/*--------Mobile Footer---------*/
+.accordion {
+    display: none;
+}
+#flush-collapseOne {
+margin-top: 2%;
+}
+#flush-collapseTwo {
+margin-top:2%
+}
+#flush-collapseThree {
+margin-top: 3%;
+}
+/*----------------------------*/
 
+.section-Links{
+    display: block;
+}
+#sm-Links {
+    display: block;
+}
 
 .brand-Text{
     font-size: 22px;
@@ -102,9 +138,45 @@ html {
     background-color: #FFFFFF;
 }
 
+.information {
+    margin-bottom: 5%;
+}
 
 .btn {
-    width: 294px;
+    width: 300px;
+    margin-bottom: 20px;
+    color: #ffffff
+}
+/*-----Mobile Mid-section--------*/
+
+#mobileMiddle {
+    display: none !important;
+}
+
+#middleStuff {
+    display: none;
+}
+
+
+#arrow-Right{
+    margin-left:20%;
+    position: absolute;
+    right:5%;
+    color: #ffffff;
+}
+
+#mobileMiddle {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    background-color: #52cac2;
+    color: #ffffff;
+    font-weight: 600;
+}
+/*------------------------------*/
+
+.fa.fa-twitter {
+    background-position: right center;
 }
 
 .brand-Text {
@@ -129,4 +201,117 @@ img, svg {
 
 .form-Label {
     font-size: medium ;
+}
+
+/*---------------------------(portrait phones, less than 576px)--------------------*/
+@media (max-width: 575.98px) {
+
+/*-------------Mobile Navbar--------*/
+#mobileNav {
+    display:block;
+    border-bottom: 10px solid #FFBC4B;
+}
+
+/*-----Mobile Mid-section--------*/
+#mobile-section {
+    display: block !important;
+}
+.pageText {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+/*--------Mobile Footer---------*/
+.accordion {
+    display: block !important;
+}
+
+
+/* --------- For Mobile Resize------*/
+h1 {
+    display:none;
+}
+.mission-Statement {
+    display: none;
+}
+
+.header-Logo{
+    display:none;
+}
+#desktopNav {
+    display: none;
+}
+.topImage {
+    display: none;
+}
+#midSection{
+    display: none;
+}
+#formContainer {
+    width: 100%;
+}
+.section-Links{
+    display: none;
+}
+.sm-Links {
+    display: none !important;
+}
+}
+
+/*-------------(landscape phones, less than 768px)-------------*/
+@media (max-width: 767.98px) { 
+
+/*-------------Mobile Navbar--------*/
+#mobileNav {
+    display:block;
+    border-bottom: 10px solid #FFBC4B;
+}
+/*-----Mobile Mid-section--------*/
+#mobileMiddle {
+    display: block !important;
+}
+#middleStuff {
+    display: block;
+}
+
+.pageText {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+/*--------Mobile Footer---------*/
+.accordion {
+    display: block;
+}
+
+
+/* --------- For Mobile Resize------*/
+h1 {
+    display:none;
+}
+.mission-Statement {
+    display: none;
+}
+
+.header-Logo{
+    display:none;
+}
+#desktopNav {
+    display: none;
+}
+.topImage {
+    display: none;
+}
+#midSection{
+    display: none;
+}
+#formContainer {
+    width: 100%;
+}
+.section-Links{
+    display: none;
+}
+.sm-Links {
+    display: none !important;
+}
 }
